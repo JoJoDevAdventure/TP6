@@ -7,4 +7,9 @@ public class Etudiant extends Personne {
         super(nom, prenom);
         this.cne = cne;
     }
+
+    public String toString() {
+        return "je suis " + super.nom + " " + super.prenom + " mon cne est: " + cne;
+    }
 }
+

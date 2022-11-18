@@ -1,7 +1,7 @@
 package TP6.Exercice1;
 
 public class Personne {
-    protected int id;
+    protected int id = 0;
     protected String nom;
     protected String prenom;
 
@@ -10,5 +10,5 @@ public class Personne {
         this.nom = nom;
         this.prenom = prenom; 
     }
-    
+
 }

@@ -7,4 +7,8 @@ public class Employe extends Personne {
         super(nom, prenom);
         this.salaire = salaire;
     }
+
+    public String toString() {
+        return "je suis " + super.nom  + " " + super.prenom + " mon salaire est: " + salaire;
+    }
 }
